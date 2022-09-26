@@ -1,16 +1,10 @@
-<input type="text" [(ngModel)]="name" class="form-control" />
-<p class="text-warning">{{ name }}</p>
-<button class="btn btn-warning">Button</button>
-<hr />
+<app-header></app-header>
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-12">
-      <div class="h3">I'am Jackson</div>
-      <hr />
-      <app-servers></app-servers>
-      <app-warning-alert></app-warning-alert>
-      <app-success-alert></app-success-alert>
+    <div class="col-md-12">
+      <app-recipes></app-recipes>
+      <app-shopping-list></app-shopping-list>
     </div>
   </div>
 </div>
